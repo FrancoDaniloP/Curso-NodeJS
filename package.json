@@ -4,7 +4,9 @@
   "description": "curso desarrollado por midu de node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:1": "nodemon 1-http.js",
+    "dev:2": "nodemon 2-rutas.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/FrancoDaniloP/curso-nodejs#readme",
   "devDependencies": {
+    "nodemon": "^3.1.4",
     "standard": "^17.1.0"
   },
   "eslintConfig": {
